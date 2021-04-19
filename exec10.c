@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Para compilar e rodar o arquivo com a lib <bsd/string.g>
+** É possível adicionar a seguinte flag (-lbsd): 
+** gcc *.c -lbsd -Wall -Wextra -Werror && ./a.out
+*/
+
 #include <stdio.h>
 #include <bsd/string.h>
 #include "ex10/ft_strlcpy.c"
